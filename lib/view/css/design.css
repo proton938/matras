@@ -1,0 +1,217 @@
+body
+	{
+		font-family: 'Oranienbaum', serif;
+	}
+	
+.header_1
+	{
+		font-family: 'Oranienbaum', serif;
+		color: #ffffff;
+	}
+
+.call                        /* кнопка заказать звонок */
+         {
+		 width: 75%;
+		 font-size: 14px;
+		 font-family: 'Oranienbaum', serif;
+		 background: #F97B00;
+		 padding: 5px;
+		 color: #ffffff;
+		 border: solid 0px;
+		 border-radius: 10px;
+		 box-shadow: 0px 5px rgba(116, 49, 0, 1);
+		 outline: none;
+		 margin-top: 0px;
+		 -webkit-transition: 0.1s;
+		-moz-transition: 0.1s;
+		-o-transition: 0.1s;
+		transition: 0.1s;
+		 
+	 }
+	 
+.call:hover
+	{
+		background: rgba(116, 49, 0, 1);
+		box-shadow: 0px 0px rgba(0, 0, 0, 1);
+		margin-top: 7px;
+	}
+.call:active
+	{
+		color: #000000;
+	}
+	
+.top_menu_button
+	{
+		background: #eeeeee;
+		width: 141px; 
+		height: 49px;
+		border: solid 0px;
+		font-family: 'Oranienbaum', serif;
+		margin-top: -1px;
+		outline: none;
+		-webkit-transition: 0.1s;
+		-moz-transition: 0.1s;
+		-o-transition: 0.1s;
+		transition: 0.1s;
+	}
+.top_menu_button:hover
+	{
+		background: #aaaaaa;
+		color: #ffffff;
+	}
+.top_menu_button_active
+	{
+		background: #aaaaaa;
+		width: 141px; 
+		height: 49px;
+		border: solid 0px;
+		font-family: 'Oranienbaum', serif;
+		margin-top: -1px;
+		outline: none;
+		color: #ffffff;
+	}
+	
+.kategory
+	{
+		font-family: 'Oranienbaum', serif;
+		font-size: 27px;
+	}
+	
+.select_kategory
+	{
+		width: 105%;
+		margin-left: -3px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		background: rgba(255, 255, 255, 0.7);
+		border: solid 0px rgba(255, 255, 255, 0.1);
+		font-family: 'Oranienbaum', serif;
+		font-size: 25px;
+		outline: none;
+		-webkit-transition: 0.3s;
+		-moz-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+	}
+	
+.select_kategory:hover
+	{
+		border-top: solid 20px rgba(255, 255, 255, 0.1);
+		border-bottom: solid 20px rgba(255, 255, 255, 0.1);
+	}
+	
+.field_filtre         /* стиль полей фильтра */
+	{
+		border: solid 2px #aaaaaa;
+		border-radius: 3px;	
+		padding: 5px;	
+		font-size: 13px;
+		outline: none;
+	}
+	
+.tovar                    /* ячейка товара */
+         {
+		 border: solid 2px #dddddd;
+		 font-family: 'Oranienbaum', serif;		 
+	 }
+	 
+.name_tovar    /* наименование товара */
+	{
+		 font-size: 20px;
+		 font-family: 'Oranienbaum', serif;	
+	}
+	 
+	 
+.button_details                       /* кнопка узнать подробности */
+         {
+		 width: 90%;
+		 font-size: 14px;
+		 font-family: 'Oranienbaum', serif;
+		 background: #F97B00;
+		 padding: 2px;
+		 color: #ffffff;
+		 border: solid 0px;
+		 border-radius: 3px;
+		 box-shadow: 0px 5px rgba(116, 49, 0, 1);
+		 outline: none;
+		 margin-top: 0px;
+		 -webkit-transition: 0.1s;
+		-moz-transition: 0.1s;
+		-o-transition: 0.1s;
+		transition: 0.1s;
+	 }
+.button_details:hover
+	{
+		background: rgba(116, 49, 0, 1);
+		box-shadow: 0px 0px rgba(0, 0, 0, 1);
+	}
+.button_details:active
+	{
+		color: #000000;
+	}
+	
+
+
+
+/*стили ползунков*/	
+input[type=range] {
+	-webkit-appearance: none;
+	height: 3px; /* установите свою высоту*/
+	padding: 0;	
+	
+	/* стили вашего ползунка */
+	
+	width: 100%;
+	background: #eeeeee;
+	border-top: solid 1px #aaaaaa;
+	border-bottom: solid 1px #aaaaaa;
+	outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	box-sizing: content-box;
+	
+	/* стили вашего бегунка */
+	
+	background: #A52A2A;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+}
+input[type=range]::-moz-range-thumb {
+	
+	/* снова стили вашего бегунка */
+	
+	background: #A52A2A;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+}
+input[type=range]::-ms-thumb { /* должен следовать после -webkit- */
+	/* снова стили вашего бегунка */
+	
+	background: red;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	
+	/* могут потребоваться разные отступы */
+}
+input[type=range]::-webkit-slider-runnable-track {
+	/* стили вашей дорожки*/
+	
+}
+input[type=range]::-moz-range-track {
+	/* снова стили вашей дорожки */
+	
+}
+input[type=range]::-ms-track { /* должен следовать после -webkit- */
+	border-color: transparent;
+	color: transparent;
+	/* снова стили вашей дорожки */
+	
+}
+	
+	
+	
+	
